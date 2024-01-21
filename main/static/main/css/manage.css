@@ -1,0 +1,118 @@
+{% load static %}
+
+.t202 {
+    background: #074F2C;
+    box-shadow: 0px 0px 5px 1px #000 inset;
+    /* width: 100%; */
+}
+
+
+
+.castom {
+    padding: 1% 1% 1% 1%;
+    margin: 0px 10% 0px 10%;
+}
+
+.castom form input {
+    background: #D9D9D9;
+    outline: none;
+    box-shadow: 0px 4px 7px 0px #000 inset;
+    width: 100%;
+
+}
+
+
+#t210 {
+    color: #FFF;
+    background-color: #387062;
+    font-family: Kaisei Decol;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*
+-------Основная старинца
+*/
+
+.t203 {
+
+    /* width: 100%; */
+    padding-top: 10vh;
+    background-image: url("/static/main/img/p/fon_manage.jpg");
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+/* .t203-1{
+
+    width: 100% ;
+} */
+
+.product {
+    width: 200px;
+    height: 350px;
+
+    padding: 20px 20px 20px 20px;
+    margin: 0px 20px 30px 20px;
+
+    background-color: #cfcfcf;
+    box-shadow: 0px 0px 1px 0px #000;
+    border-radius: 5px;
+}
+
+.product:hover {
+    box-shadow: #597869 0px 0px 5px 5px;
+
+}
+
+.img-product img {
+    border-radius: 5px;
+}
+
+.t910 {
+    background: #D9D9D9;
+    box-shadow: 0px 0px 11.7px 2px rgba(0, 0, 0, 0.70) inset;
+    text-decoration: none;
+    text-shadow: 0px 0px 11.7px 2px rgba(0, 0, 0, 0.70);
+    color: #000;
+    animation: shadow 2s infinite ease-in-out;
+}
+
+.t910:hover {
+    box-shadow: 0px 0px 11.7px 10px rgba(0, 0, 0, 0.70) inset;
+    animation: ershadow 2s infinite ease-in-out;
+}
+
+@keyframes shadow {
+    from {
+        text-shadow: 0 0 3px black;
+    }
+
+    50% {
+        text-shadow: 0 0 30px rgb(130, 116, 116);
+    }
+
+    to {
+        text-shadow: 0 0 3px black;
+    }
+}
+
+@keyframes ershadow {
+    from {
+        text-shadow: 0 0 3px black;
+        color: #000;
+    }
+
+    50% {
+        text-shadow: 0 0 30px rgb(130, 116, 116);
+        color: #8b8b8b;
+    }
+
+    to {
+        text-shadow: 0 0 3px black;
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,38 @@
+
+{% load static %}
+
+.t202{
+    background: #074F2C;
+    box-shadow: 0px 0px 5px 1px #000 inset;
+
+
+    margin: 0;
+    position:relative; /* фиксированное положение */
+
+}
+
+
+.castom{
+    padding: 1% 1% 0% 1%;
+
+}
+
+.castom form input{
+    background: #D9D9D9;
+    outline:none;
+    box-shadow: 0px 4px 7px 0px #000 inset;
+    width: 100%;
+
+}
+/*
+-------Основная старинца
+*/
+.t401{
+    background-color:#1B1B1B;
+    color:aliceblue;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+

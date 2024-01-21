@@ -1,0 +1,148 @@
+.t202 {
+    background: #074F2C;
+    box-shadow: 0px 0px 5px 1px #000 inset;
+    margin: 0;
+    position: relative;
+    /* фиксированное положение */
+
+}
+
+
+.castom {
+    padding: 1% 1% 0% 1%;
+
+}
+
+.castom form input {
+    background: #D9D9D9;
+    outline: none;
+    box-shadow: 0px 4px 7px 0px #000 inset;
+    width: 100%;
+
+}
+
+/*
+-------Основная старинца
+*/
+
+
+.t501 {
+    background-image: url("/image/p/40.jpg");
+    position: static;
+    width: 100%;
+
+    min-width: 100vh;
+    color: #FFF;
+    background-attachment: fixed;
+
+}
+
+
+.t501-1 {
+    background: linear-gradient(180deg, #4C4C4C 0%, rgba(53, 53, 53, 0.38) 53.12%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    max-height: 100vh;
+    /* min-height: 50px; */
+    padding: 0px 10% 0px 10%;
+    margin: 0px 10% 0px 10%;
+    overflow: auto;
+
+}
+
+.tool-bar {
+    width: 100%;
+    padding-top: 10px;
+    /* background-color: #356A7A; */
+}
+
+.t507 {
+
+    padding-top: 10px;
+
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.t507 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.58);
+}
+
+.t504 {
+    background: #FFF;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+    color: #2C2C2C;
+
+    font-family: Kaisei Decol;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.t506 {
+    color: #000;
+
+
+    font-family: Kaisei Decol;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #D9D9D9;
+}
+
+.t53 form {
+    text-decoration: none;
+}
+
+.t505 {
+    color: #FFF;
+    background-color: #387062;
+    font-family: Kaisei Decol;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.t510 {
+    padding-top: 50px;
+    /* padding-bottom: 100px; */
+    /* background-color: #074F2C; */
+
+    color: #FFF;
+
+    font-family: Kaisei Decol;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#p9 {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+#p10 {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.t520 {
+    padding-bottom: 35vh;
+    /* min-width: 100px; */
+}
+
+.t530-1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}

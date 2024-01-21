@@ -1,0 +1,118 @@
+{% load static %}
+
+header{
+    background: #125039;
+    box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    height: 70px;
+    width: 100%;
+    /* padding: 5px 0px 0px 0px; */
+    position:relative;
+
+}
+
+#menu1{
+    margin:0% 10% 0% 0%;
+    text-align: center;
+    padding-top: 1%;
+
+
+}
+#menu1 h1{
+    color:#FFF;
+}
+
+#t100{
+    border-bottom:solid  #FFF  1px;
+}
+
+
+.t201{
+    border: solid #FFF 1px;
+}
+
+#menu1 a{
+    margin: 0% 12% 0% 3%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#block1{
+    padding-top: 5px;
+}
+
+
+#button{
+    margin-top:12%;
+    padding: 7px 15px 7px 15px;
+
+    /* width:100%;
+    height: 100%;  */
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: linear-gradient(90deg, #3F2D65 1.48%, #356A7A 99.11%);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu1 a:hover{
+    border-bottom: groove #ff0000 1px;
+
+}
+
+/*
+    --------------footer
+*/
+.fot{
+    background: linear-gradient(180deg, #0E1116 0%, #000 100%);
+    width: 100%;
+    height: 30px;
+    flex-shrink: 0;
+
+
+}
+.fot p{
+    padding-top: 5px;
+    color: #FFF;
+    font-family: Kaisei Decol;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+/* Основная старинца */
+.t501{
+    background-image: url("/static/main/img/p/40.jpg");
+    position: static;
+    width: 100% ;
+    max-height: 100vh;
+    color:#FFF;
+    background-attachment: fixed;
+
+}
+.t501-1{
+    background: linear-gradient(180deg, #4C4C4C 0%, rgba(53, 53, 53, 0.38) 53.12%, rgba(0, 0, 0, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    max-height: 100vh;
+    padding: 10px 10% 10px 10%;
+    margin: 0px 10% 0px 10%;
+    overflow:auto;
+}
+
+
+
+
+/* Форма добавления */
+
+.t901{
+    padding: 1% 1% 1% 1%;
+}
+
+.t910{
+    padding: 1% 1% 1% 1%;
+}
+
